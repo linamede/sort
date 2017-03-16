@@ -33,7 +33,7 @@ imcounter=0
 if not os.path.exists('dets_and_trackers'):
     os.makedirs('dets_and_trackers')
 
-def parse_args():
+def parse_args(): 
     """Parse input arguments."""
     parser = argparse.ArgumentParser(description='SORT demo')
     parser.add_argument('--display', dest='display', help='Display online tracker output (slow) [False]',action='store_true')
